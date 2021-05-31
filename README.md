@@ -6,7 +6,6 @@ Quick setup
 wget https://raw.githubusercontent.com/Epicminer256/termuxtoadb/main/setupsshfiles.sh && chmod +x ./setupsshfiles.sh && ./setupsshfiles.sh && rm ./setupsshfiles.sh
 
 The connection is like this
-
 PhoneTermuxShell -> ADB Local Fowarding -> SSH
 
 Here is how you set this up (THIS SCRIPT ONLY WORKS ON LINUX AT THE MOMENT)
