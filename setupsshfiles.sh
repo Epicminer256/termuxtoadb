@@ -1,6 +1,6 @@
 echo make sure you have your phone plugged thoughout this setup
 echo
-echo Have openssh and screen installed on your phone
+echo Have openssh installed on your phone
 echo also run sshd -p8022 on termux
 echo
 echo Make sure your phone has a password by typing passwd
@@ -12,8 +12,7 @@ read
 
 echo
 echo Making local ssh launch scripts
-echo "adb forward tcp:8022 tcp:8022 && ssh 127.0.0.1 -p8022 -t 'screen'" >> phonessh.sh
-echo "adb forward tcp:8022 tcp:8022 && ssh 127.0.0.1 -p8022 " >> recphoneses.sh
+echo "adb forward tcp:8022 tcp:8022 && ssh 127.0.0.1 -p8022 " >> PhoneSSH.sh
 echo
 
 echo generating a ssh key for automatic login
