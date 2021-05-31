@@ -1,6 +1,9 @@
 # Termux to ADB+SSH autosetup
 This uses SSH to passthough your termux session to adb on your desktop
 
+Quick setup
+wget https://raw.githubusercontent.com/Epicminer256/termuxtoadb/main/setupsshfiles.sh && chmod +x ./setupsshfiles.sh && ./setupsshfiles.sh && rm ./setupsshfiles.sh
+
 The connection is like this
 PhoneTermuxShell -> ADB Local Fowarding -> SSH
 
