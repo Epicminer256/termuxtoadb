@@ -1,4 +1,4 @@
-echo make sure you have your phone plugged in at all times
+echo make sure you have your phone plugged thoughout this setup
 echo
 echo Have openssh and screen installed on your phone
 echo also run sshd -p8022 on termux
@@ -7,7 +7,7 @@ echo Make sure your phone has a password by typing passwd
 echo Hit Ctrl+C to stop or press any key to continue
 echo 
 echo
-echo Press any key to continue
+echo Hit ENTER or RETURN to continue
 read
 
 echo
