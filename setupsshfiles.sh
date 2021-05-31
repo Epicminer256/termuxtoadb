@@ -13,9 +13,8 @@ echo Hit ENTER or RETURN to continue
 read
 
 echo
-echo _________________________________
+echo 
 echo Making local ssh launch scripts
-echo _________________________________
 echo "adb forward tcp:8022 tcp:8022 && ssh 127.0.0.1 -p8022 " >> PhoneSSH.sh
 chmod +x PhoneSSH.sh
 echo
