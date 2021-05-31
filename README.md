@@ -1,4 +1,4 @@
-# termuxtoadb
+# Termux to SSH autosetup
 This uses SSH to passthough your termux session to adb on your desktop
 
 Here is how you set this up (THIS ONLY WORKS ON LINUX AT THE MOMENT)
