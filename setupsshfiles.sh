@@ -38,4 +38,5 @@ echo Now you will be brought to your termux if this worked
 echo _________________________________
 echo
 echo Connecting to the phone...
+clear
 ssh 127.0.0.1 -p8022
