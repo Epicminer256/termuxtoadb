@@ -1,7 +1,7 @@
 # Termux to ADB+SSH autosetup
 This uses SSH to passthough your termux session to adb on your desktop
 
-#Quick setup
+# Quick setup
 
 For linux:
 
@@ -15,7 +15,7 @@ The connection is like this:
 
 PhoneTermuxShell -> ADB Local Fowarding -> SSH
 
-#Your steps:
+# Your steps:
 
 1) On termux, do "apt install openssh"
 2) Now you type "sshd -p8022" into termux
