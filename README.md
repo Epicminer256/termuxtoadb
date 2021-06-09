@@ -1,5 +1,5 @@
 # Termux to ADB+SSH autosetup
-This uses SSH to passthough your termux session to adb on your desktop
+This uses SSH to passthough your termux session to adb on your desktop. The connection is passed from your cell phone to your computer via adb. This script uses port 8022 instead of the standard ssh port because android sometimes doesnt like to port over port 22 and if your computer is aready running a ssh server this script will not interfere.
 
 # Quick setup
 
@@ -11,9 +11,6 @@ For windows (BETA):
 
 curl https://raw.githubusercontent.com/Epicminer256/termuxtoadb/main/setupsshfiles.bat --output setupsshfiles.bat && setupsshfiles.bat
 
-The connection is like this:
-
-PhoneTermuxShell -> ADB Local Fowarding -> SSH
 
 # Your steps:
 
