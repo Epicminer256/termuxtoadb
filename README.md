@@ -4,12 +4,15 @@ This uses SSH to passthough your termux session to adb on your desktop
 #Quick setup
 
 For linux:
+
 wget https://raw.githubusercontent.com/Epicminer256/termuxtoadb/main/setupsshfiles.sh && chmod +x ./setupsshfiles.sh && ./setupsshfiles.sh
 
 For windows (BETA):
+
 curl https://raw.githubusercontent.com/Epicminer256/termuxtoadb/main/setupsshfiles.bat --output setupsshfiles.bat && setupsshfiles.bat
 
-The connection is like this
+The connection is like this:
+
 PhoneTermuxShell -> ADB Local Fowarding -> SSH
 
 #Your steps:
