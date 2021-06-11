@@ -1,5 +1,7 @@
 @echo off
-set adb-exe="C:\Users\ianki\Desktop\platform-tools\adb.exe"
+
+::CHANGE THIS
+set adb-exe="adb.exe"
 
 echo _________________________________
 echo make sure you have your phone plugged thoughout this setup
