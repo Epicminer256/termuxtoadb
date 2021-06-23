@@ -19,5 +19,6 @@ curl https://raw.githubusercontent.com/Epicminer256/termuxtoadb/main/setupsshfil
 3) Give Termux a password with "passwd"
 4) Make sure on windows your adb path is good, so check the second line of your script
 5) launch this script and it will set you up in around 10-15 seconds
+6) General file explorer tip, hold shift and click on adb.exe. There should be a option to copy the path to the file.
 
 Now you have a autoconnect script that you can use at any time. Good luck!
