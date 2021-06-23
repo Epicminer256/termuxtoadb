@@ -4,9 +4,9 @@ echo Type where adb.exe is?
 echo.
 echo If you just hit enter the script will execute adb from your local dir
 echo or it will execute from System32
-set /p adbexe="#------> "
+set /p adb-exe="#------> "
 echo.
-if "%adbexe%" == "" set adbexe=adb.exe
+if "%adb-exe%" == "" set adbexe=adb.exe
 
 
 echo _________________________________
