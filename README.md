@@ -9,7 +9,7 @@ wget https://raw.githubusercontent.com/Epicminer256/termuxtoadb/main/setupsshfil
 
 For windows (BETA):
 
-curl https://raw.githubusercontent.com/Epicminer256/termuxtoadb/main/setupsshfiles.bat --output setupsshfiles.bat && setupsshfiles.bat
+curl https://raw.githubusercontent.com/Epicminer256/termuxtoadb/main/setupsshfiles.bat --output setupsshfiles.bat && echo. && echo. && setupsshfiles.bat
 
 
 # Your steps:
