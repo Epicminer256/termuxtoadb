@@ -6,7 +6,7 @@ echo If you just hit enter the script will execute adb from your local dir
 echo or it will execute from System32
 set /p adb-exe="#------> "
 echo.
-if "%adb-exe%" == "" set adbexe=adb.exe
+if "%adb-exe%" == "" set adb-exe=adb.exe
 
 
 echo _________________________________
