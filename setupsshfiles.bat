@@ -1,7 +1,13 @@
 @echo off
 
-::CHANGE THIS
-set adb-exe="adb.exe"
+echo Type where adb.exe is?
+echo.
+echo If you just hit enter the script will execute adb from your local dir
+echo or it will execute from System32
+set /p adbexe="#--DIR----> "
+echo.
+if "%adbexe%" == "" set adbexe=
+
 
 echo _________________________________
 echo make sure you have your phone plugged thoughout this setup
@@ -42,4 +48,4 @@ echo Now you will be brought to your termux if this worked
 echo _________________________________
 echo.
 cls
-ssh 127.0.0.1 -p8022
+ssh 127.0.0.1 -p8022 
