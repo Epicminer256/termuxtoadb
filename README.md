@@ -3,11 +3,11 @@ This uses SSH to passthough your termux session to adb on your desktop. The conn
 
 # Quick setup
 
-For linux:
+For linux desktops:
 
 wget https://raw.githubusercontent.com/Epicminer256/termuxtoadb/main/setupsshfiles.sh && chmod +x ./setupsshfiles.sh && ./setupsshfiles.sh
 
-For windows:
+For windows desktops:
 
 curl https://raw.githubusercontent.com/Epicminer256/termuxtoadb/main/setupsshfiles.bat --output setupsshfiles.bat && echo. && echo. && setupsshfiles.bat
 
