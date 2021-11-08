@@ -17,7 +17,7 @@
 1) On termux, do "apt install openssh"
 2) Now you type "sshd -p8022" into termux
 3) Give Termux a password with "passwd"
-4) (Windows Only) If adb.exe is stored somewhere where CMD cant find it just use notepad to edit the adb path inside of the batch script.
+4) (Windows Only) Go ahead and copy the path to adb.exe.
 5) Launch this script and it will set you up in around 10-15 seconds
 
 ###### General windows file explorer tip, hold shift and click on adb.exe. There should be a option to copy the path to the file.
