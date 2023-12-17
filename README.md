@@ -3,6 +3,8 @@
 
 # Quick setup
 
+Note, this script will make another script to easly access your termux session
+
 #### For linux desktops:
 
 `wget https://raw.githubusercontent.com/Epicminer256/termuxtoadb/main/setupsshfiles.sh && chmod +x ./setupsshfiles.sh && ./setupsshfiles.sh`
@@ -11,15 +13,12 @@
 
 `curl https://raw.githubusercontent.com/Epicminer256/termuxtoadb/main/setupsshfiles.bat --output setupsshfiles.bat && echo. && echo. && setupsshfiles.bat`
 
+Make sure you have the path to adb.exe. (file explorer tip, hold shift and click on adb.exe. There should be a option to copy the path to the file.)
 
-# Your steps:
+### On your phone
 
-1) On termux, do "apt install openssh"
-2) Now you type "sshd -p8022" into termux
-3) Give Termux a password with "passwd"
-4) (Windows Only) Go ahead and copy the path to adb.exe.
-5) Launch this script and it will set you up in around 10-15 seconds
+`passwd`
 
-###### General windows file explorer tip, hold shift and click on adb.exe. There should be a option to copy the path to the file.
+`apt install openssh`
 
-### Now you have a autoconnect script that you can use at any time. Good luck! I also recommend that you setup termux to run "sshd -p8022" on boot.
+`sshd -p8022`
